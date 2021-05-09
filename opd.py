@@ -1,0 +1,5 @@
+file1 = open(r"E:/test","w+")
+file1.writelines(["HELLO WELLCOME TO THE PROJECT\n","shree zaid tejas adarsh\n","the end"])
+file1.close()
+file1 = open(r"E:/test","a")
+file1.write("\nbbye")
